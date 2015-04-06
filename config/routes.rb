@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root 'welcome#main'
   resources :articles
+  post 'articles/count'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
